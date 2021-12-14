@@ -954,6 +954,7 @@
 	export_constant2("Eff_Heat",SC_BURNT);
 
 	export_constant2("SC_ALL",SC_NONE);
+	export_constant2("SC_ANYBAD",SC_NONE);
 
 	export_constant(SC_NONE);
 	export_constant(SC_STONE);
@@ -4131,6 +4132,7 @@
 	export_constant2("ATF_SKILL",ATF_MAGIC|ATF_MISC);
 
 	/* emoticons */
+	export_constant(ET_NONE);
 	export_constant(ET_SURPRISE);
 	export_constant(ET_QUESTION);
 	export_constant(ET_DELIGHT);
@@ -8948,20 +8950,6 @@
 	export_constant(MSC_MASTERATTACKED);
 	export_constant(MSC_ALCHEMIST);
 	export_constant2("MSC_ONSPAWN",MSC_SPAWN);
-
-	/* cond2 */
-	export_constant2("SC_ANYBAD",-1);
-	// {	"stone",		SC_STONE		},
-	// {	"freeze",		SC_FREEZE		},
-	// {	"stun",			SC_STUN			},
-	// {	"sleep",		SC_SLEEP		},
-	// {	"poison",		SC_POISON		},
-	// {	"curse",		SC_CURSE		},
-	// {	"silence",		SC_SILENCE		},
-	// {	"confusion",	SC_CONFUSION	},
-	// {	"blind",		SC_BLIND		},
-	// {	"hiding",		SC_HIDING		},
-	// {	"sight",		SC_SIGHT		},
 		
 	#undef export_constant
 	#undef export_constant2
